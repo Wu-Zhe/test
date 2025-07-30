@@ -665,7 +665,7 @@ class MNISTBenchmark:
         
         # Optimizer configurations with optimized parameters for MUON
         optimizers_config = {
-            'MUON': {
+            'ImprovedMUON': {
                 'class': ImprovedMuon,
                 'kwargs': {
                     'lr': 1e-3, 
@@ -676,6 +676,14 @@ class MNISTBenchmark:
                     'min_layer_size': 8, # Lower threshold to apply MUON to more layers
                     'eps': 1e-6,         # Increased for better numerical stability
                     'adaptive_ns': True  # Adaptive iterations for faster convergence
+                }
+            },
+            'OriginalMUON': {
+                'class': OriginalMuon,
+                'kwargs': {
+                    'lr': 0.02,      # Higher lr as typical for original MUON
+                    'momentum': 0.95, # Higher momentum as in original
+                    'weight_decay': 1e-4
                 }
             },
             'Adam': {
@@ -1257,6 +1265,3 @@ if __name__ == "__main__":
     
     # Run the evaluation
     results = main()
-
-
-
