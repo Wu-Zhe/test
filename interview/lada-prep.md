@@ -28,7 +28,7 @@ https://www.glassdoor.com/Interview/Los-Angeles-County-District-Attorney-s-Offic
     - Why do you want to be a DA one day rather than a private lawyer?
     - Why do you want to become a prosecutor?
     - Why does your background make you an ideal candidate for the Deputy DA position.
-  - 3 part interview First Part: hypothetical case analysis, not hard if you know basic crim pro/trial work second part: informational interview. Basic questions, they want to know if you are willing to go to any court location in LA County Third Part: Interview with DA
+    - 3 part interview First Part: hypothetical case analysis, not hard if you know basic crim pro/trial work second part: informational interview. Basic questions, they want to know if you are willing to go to any court location in LA County Third Part: Interview with DA
 
 
 
